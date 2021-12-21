@@ -7,7 +7,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-section {
+.nav-menu {
     background-color: rgb(0, 0, 0);
 }
 .logo {
@@ -61,7 +61,38 @@ main {
 }
 
 .main-image img {
-    width: 50%;
+    width: 40%;
     margin-left: 150px;
-    margin-top: 50px;
+    margin-top: 15px;
+}
+
+.skills {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-evenly;  
+}
+
+.bar-container {
+    height: 25px;
+    width: 220px;
+    position: relative;
+    background-color: gray;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+/*animation*/
+
+.bar-container .progress-bar {
+    position: absolute;
+    height: 100%;
+    background-color: rgb(85, 182, 85);
+    border-radius: 7px;
+    -webkit-animation: progress-annimation 2s forwards;
+}
+
+@-webkit-keyframes progress-annimation {
+    from {width:0px;}
+  to {width:143px;}
 }
