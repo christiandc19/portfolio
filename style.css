@@ -72,6 +72,7 @@ main {
 
 .skills {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     margin-top: 30px;
     justify-content: center;  
