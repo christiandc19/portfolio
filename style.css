@@ -3,16 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
 }
 
 .nav-menu {
     background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .logo {
-    display: inline-block;
-    width: 50%;
     color: white;
     padding: 10px 150px;
    
@@ -21,7 +23,7 @@ body {
 .nav-container {
     margin-top: 15px;
     width: 50%;
-    float: right;
+
 }
 
 .nav-list li {
@@ -41,34 +43,31 @@ body {
     color: rgb(85, 182, 85);
 }
 
-
-.bio {
-    width: 50%;
-    padding: 50px 50px 50px 150px;
-    line-height: 1.7;
-    display: inline-block;
-}
-
-.bio p {
-    line-height: 1.7;
-    font-size: 20px;
-    padding-top: 15px;
-
-}
-
 main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
     background-color: rgba(248, 245, 241, 0.89);
 }
 
+.bio {
+    position: relative;
+    width: 40%;
+    margin-top: 100px;
+    padding-left: 50px;
+    margin-right: 0;
+    line-height: 1.7;
+}
+
 .main-image {
-    width: 50%;
-    float: right;
+    width: 35%;
 }
 
 .main-image img {
-    width: 50%;
-    margin-left: 150px;
+    width: 90%;
     margin-top: 50px;
+    margin-left: 70px;
 }
 
 .skills {
@@ -88,7 +87,7 @@ main {
     border-radius: 7px;
 }
 
-.primary-title {
+.primary-title h1 {
     text-align: center;
     margin-top: 50px;
 }
