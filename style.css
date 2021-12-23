@@ -60,11 +60,15 @@ main {
     line-height: 1.7;
 }
 
+.bio p {
+    margin-top: 20px;
+}
+
 #cv-btn {
     background-color: rgb(61, 59, 78);
     font-weight: bold;
     color: rgb(85, 182, 85);
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 5px;
     height: 30px;
     width: 200px;
